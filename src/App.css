@@ -1,0 +1,26 @@
+/* Remove all styles if you're handling everything through styled-components */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Default light background; will be overridden by styled-components */
+  color: #333; /* Default light text color; will be overridden by styled-components */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5em 0;
+}
+
+a {
+  color: #007BFF; /* Default link color; will be overridden by styled-components */
+  text-decoration: none;
+}
+
+/* Keep any specific global styles or reset styles here if needed */
